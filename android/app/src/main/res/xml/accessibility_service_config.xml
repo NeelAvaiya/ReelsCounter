@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Only the three event types the detector uses:
+  - typeWindowStateChanged: screen/fragment/dialog changes (entering/leaving Reels, sheets)
+  - typeWindowContentChanged: the visible reel's views updating after a swipe
+  - typeViewScrolled: the reel pager moving (used to wait for a swipe to settle)
+  packageNames limits delivery to Instagram; the service re-applies it from the detection config.
+  flagReportViewIds exposes resource ids, the detector's most stable signal.
+  notificationTimeout batches content-change storms at the OS level.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/accessibility_service_description"
+    android:packageNames="com.instagram.android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeViewScrolled"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds|flagIncludeNotImportantViews"
+    android:canRetrieveWindowContent="true"
+    android:notificationTimeout="100"
+    android:isAccessibilityTool="false" />

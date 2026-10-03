@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Reels Counter mark: portrait reel frame holding a five-bar tally (source: assets/logo.svg). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M44.5,28 H63.5 A7.5,7.5 0 0 1 71,35.5 V72.5 A7.5,7.5 0 0 1 63.5,80 H44.5 A7.5,7.5 0 0 1 37,72.5 V35.5 A7.5,7.5 0 0 1 44.5,28 Z"
+        android:strokeColor="#EEF1F6"
+        android:strokeWidth="4.5" />
+    <path
+        android:pathData="M45,42 V66 M51,42 V66 M57,42 V66 M63,42 V66 M41.5,62.5 L66.5,45.5"
+        android:strokeColor="#FFB020"
+        android:strokeLineCap="round"
+        android:strokeWidth="3.6" />
+</vector>

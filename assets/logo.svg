@@ -1,0 +1,12 @@
+<!-- Reels Counter mark: a portrait reel frame holding a five-bar tally. 108-unit adaptive-icon grid. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="1024" height="1024">
+  <rect width="108" height="108" fill="#141A33"/>
+  <rect x="37" y="28" width="34" height="52" rx="7.5" fill="none" stroke="#EEF1F6" stroke-width="4.5"/>
+  <g stroke="#FFB020" stroke-width="3.6" stroke-linecap="round" fill="none">
+    <line x1="45" y1="42" x2="45" y2="66"/>
+    <line x1="51" y1="42" x2="51" y2="66"/>
+    <line x1="57" y1="42" x2="57" y2="66"/>
+    <line x1="63" y1="42" x2="63" y2="66"/>
+    <line x1="41.5" y1="62.5" x2="66.5" y2="45.5"/>
+  </g>
+</svg>

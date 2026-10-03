@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Reels Counter</string>
+    <string name="accessibility_service_label">Reels Counter</string>
+    <string name="accessibility_service_description">Counts how many times you swipe to the next Reel in the Instagram app. It observes only Instagram\'s screen structure to recognise the Reels viewer and reel changes. To tell one reel from the next it briefly compares a fingerprint of the visible reel\'s author and caption labels in memory; this text is never saved, logged or sent anywhere. It does not perform actions for you, does not observe other apps, and keeps only daily counts on this device.</string>
+</resources>

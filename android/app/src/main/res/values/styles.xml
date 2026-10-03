@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+        <!-- Matches the JS theme so launch shows no white flash. -->
+        <item name="android:windowBackground">@color/app_background</item>
+    </style>
+
+</resources>
